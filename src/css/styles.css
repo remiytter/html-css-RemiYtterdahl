@@ -6,14 +6,67 @@
 /* Feel free to add as many of these imports as you need */
 
 body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.centered {
+header {
+  height: 20vh;
+  background-color: var(--color-primary);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* NAVBAR-KONTAINER */
+.navbar {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;  /* logo venstre, meny høyre */
+  align-items: center;             /* sentrer vertikalt */
+  height: 100%;
+  padding: 0 2rem;
+}
+
+/* LOGO */
+.logo-header {
+  height: 80%;
+  width: auto;
+}
+
+/* NAV-LENKER */
+.nav-links {
+  display: flex;
+  gap: 2rem;           /* mellomrom mellom lenker */
+  list-style: none;    /* fjerner punktene */
+  margin: 0;
+  padding: 0;
+}
+
+/* LENKENE SELV */
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #555;
+}
+
+
+.main{
+  height: 70vh;                  /* 100% av skjermhøyden */
+  background-size: cover;         /* dekker hele området */
+  background-position: top;    /* sentrerer bildet */
+  background-repeat: no-repeat;   /* fjerner gjentakelse */
+  display: flex;                  /* for å kunne sentrere innholdet */
+  justify-content: center;        /* horisontalt */
+  align-items: center;            /* vertikalt */
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/22/19/25/adventure-1850178_1280.jpg");
+}
+
+footer{
+  height: 10vh;
 }
