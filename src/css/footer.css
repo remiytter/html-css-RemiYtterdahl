@@ -1,0 +1,42 @@
+footer{
+  height: 10vh;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.footer-icons{
+  display: flex;
+  gap: 1rem;  /* Mellomrom mellom ikonene */
+}
+
+.footer-icons img{
+  height: 24px;
+  width: auto;
+  transition: transform 0.2s ease;
+}
+
+.footer-icons img:hover{
+  transform: scale(1.1);  /* Hover effekt, ikoner blir litt større */
+}
+
+
+
+.logo-footer{
+  height: 60%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-contact{
+  display: flex;
+  justify-content: center;  /* legger paragrafene under hverandre */
+  align-items: flex-end;    /* Sentrerer vertikalt i footer */
+  flex-direction: column;   /* Plasserer paragrafene mot høyre */
+  padding-right: 2rem;      /* Få de litt ut fra høyrekanten av skjermen */
+  height: 100%;
+}

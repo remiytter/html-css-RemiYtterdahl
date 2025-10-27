@@ -1,0 +1,41 @@
+header {
+  height: 20vh;
+  background-color: var(--color-primary);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* NAVBAR-KONTAINER */
+.navbar {
+  display: flex;
+  justify-content: space-between;  /* logo venstre, meny høyre */
+  align-items: center;             /* sentrer vertikalt */
+  height: 100%;
+  padding: 0 2rem;
+}
+
+/* LOGO */
+.logo-header {
+  height: 80%;
+  width: auto;
+}
+
+/* NAV-LENKER */
+.nav-links {
+  display: flex;
+  gap: 2rem;           /* mellomrom mellom lenker */
+  list-style: none;    /* fjerner punktene */
+  margin: 0;
+  padding: 0;
+}
+
+/* LENKENE SELV */
+.nav-links a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #555;
+}
