@@ -14,15 +14,22 @@ header {
 }
 
 /* LOGO */
-.logo-header {
-  height: 80%;
+.navbar a img.logo-header {
+  height: 10rem;
   width: auto;
+  display: block;
+}
+
+.navbar a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 /* NAV-LENKER */
 .nav-links {
   display: flex;
-  gap: 2rem;           /* mellomrom mellom lenker */
+  gap: 5rem;           /* mellomrom mellom lenker */
   list-style: none;    /* fjerner punktene */
   margin: 0;
   padding: 0;
@@ -33,9 +40,24 @@ header {
   text-decoration: none;
   color: var(--color-text);
   font-weight: bold;
+  font-size: 25px;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
   color: #555;
+}
+
+.nav-icons{
+  padding: 0 2rem;
+  justify-content: space-between;
+  margin: 2rem;
+  gap: 1.5rem;
+  align-items: center;
+  display: flex;
+}
+
+.nav-icons img{
+  width: 2rem;
+  height: auto;
 }

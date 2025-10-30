@@ -9,17 +9,75 @@
 .main{
     height: 70vh;
     background-color: var(--color-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Kontainer for produktene */
 .products{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 3rem;                  /* Avstand mellom produktene */
+    flex-wrap: wrap;            /* Gjør den responsiv */
 }
 
-.products img{
-    width: 15rem;
+.product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+    text-align: center;
+    width: 250px;
+    height: 420px;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.product-info img{
+    width: 100%;
     height: auto;
-    margin-top: 7rem;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.product-info h3{
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: var(--color-primary);
+    min-height: 2.5rem; /* Sørger for lik høyde */
+}
+
+.price{
+    font-weight: bold;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.buy-buttons{
+    background-color: var(--color-primary);
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+    margin-top: 1rem;
+}
+
+.buy-buttons a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.buy-buttons:hover{
+    background-color: #2c6f8a;
 }

@@ -41,6 +41,10 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+.homepage-cta a{
+  color: var(--color-text);
+}
+
 .homepage-cta:hover{
   transform: scale(1.1);
 }
