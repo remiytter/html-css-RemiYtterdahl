@@ -31,7 +31,7 @@ body {
 .homepage-cta{
   padding: 1rem 3rem;
   font-size: 2rem;
-  border: 2px solid black;
+  border: 2px solid white;
   background-color: var(--color-button);
   color: white;
   font-weight: bold;
@@ -43,6 +43,7 @@ body {
 
 .homepage-cta a{
   color: var(--color-text);
+  text-decoration: none;
 }
 
 .homepage-cta:hover{

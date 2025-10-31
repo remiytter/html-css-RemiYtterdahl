@@ -15,8 +15,8 @@ header {
 
 /* LOGO */
 .navbar a img.logo-header {
-  height: 10rem;
-  width: auto;
+  height: auto;
+  width: 200px;
   display: block;
 }
 
