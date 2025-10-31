@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Example Title, replace me!</title>
-    <link rel="stylesheet" href="src/css/homepage.css" />
+    <title>Checkout - Rainy days</title>
+    <link rel="stylesheet" href="src/css/checkout.css" />
     <link rel="stylesheet" href="src/css/header.css" />
     <link rel="stylesheet" href="src/css/footer.css" />
   </head>
   <body>
 <header>
   <nav class="navbar">
-    <a href="homepage.html">
+    <a href="index.html">
       <img src="assets/images/RainyDays_Logo.png" alt="Rainy days logo" class="logo-header" />
     </a>
     <ul class="nav-links">
-      <li><a href="#Home">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="products.html">Products</a></li>
       <li><a href="#About">About</a></li>
       <li><a href="#Contact">Contact</a></li>
@@ -27,14 +27,30 @@
   </nav>
 </header>
     <main class="main">
-      <button class="homepage-cta"><a href="products.html">Buy jackets</a></button>
+        <div class="product-image">
+            <img src="assets/images/RainyDays_Jacket1.jpg" alt="Picture of a orange and grey jacket" />
+        </div>
+        
+        <label for="amount">Number of products</label>
+            <select id="amount" name="amount" class="amount-select">
+                <option value="" disabled selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="DEL">Delete item</option>
+            </select>
+
+        <div class="delivery-form">
+
+        </div>
+
     </main>
     <footer>
       <div class="footer-icons">
         <a href="#"><img src="assets/images/instagram-icon.svg" alt="Instagram"></a>
         <a href="#"><img src="assets/images/facebook-icon.svg" alt="Facebook"></a>
       </div>
-      <img src="assets/images/RainyDays_Logo.png" alt="Rainy days logo" class="logo-footer" href="homepage.html" />
+      <img src="assets/images/RainyDays_Logo.png" alt="Rainy days logo" class="logo-footer" />
       <div class="footer-contact">
         <p>Rainydays street 14, 0081 Oslo</p>
         <p>+47 429 19 021</p>
