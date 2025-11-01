@@ -7,6 +7,72 @@
 
 
 .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
     height: 70vh;
     background-color: var(--color-background);
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+.product-image img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px black;
+}
+
+.delivery-form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.delivery-form label{
+    margin-top: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.delivery-form input,
+.amount-select{
+    margin-top: 0.3rem;
+    padding: 0.8rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.amount-select{
+    margin-bottom: 1rem;
+    width: 20%;
+}
+
+.price{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.checkout-button{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover{
+    background-color: gray;
 }

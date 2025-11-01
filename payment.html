@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage - Rainy days</title>
+    <link rel="stylesheet" href="src/css/payment.css" />
+    <link rel="stylesheet" href="src/css/header.css" />
+    <link rel="stylesheet" href="src/css/footer.css" />
+  </head>
+  <body>
+<header>
+  <nav class="navbar">
+    <a href="index.html">
+      <img src="assets/images/RainyDays_Logo.png" alt="Rainy days logo" class="logo-header" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+    <div class="nav-icons">
+      <a href="#"><img src="assets/images/profile-icon.svg" alt="Profile icon" /></a>
+      <a href="#"><img src="assets/images/shopping-icon.svg" alt="Shopping cart" /></a>
+    </div>
+  </nav>
+</header>
+    <main class="main">
+        <div class="payment">
+            <h2>Payment</h2>
+            <h3 class="price">NOK 1499,-</h3>
+
+            <form class="payment-form" action="order-recieved.html" method="get">
+                <label for="cardnumber">Card number</label>
+                <input type="number" id="cardnumber" name="cardnumber" placeholder="Card number" required />
+                
+                <label for="expdate">Expire date</label>
+                <input type="month" id="expdate" name="expdate" placeholder="MM/YY" required />
+
+                <label for="CVC">CVC</label>
+                <input type="number" id="CVC" name="CVC" placeholder="CVC" required />
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Full name" required />
+
+                <button type="submit" class="pay-button">Pay</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+      <div class="footer-icons">
+        <a href="#"><img src="assets/images/instagram-icon.svg" alt="Instagram"></a>
+        <a href="#"><img src="assets/images/facebook-icon.svg" alt="Facebook"></a>
+      </div>
+      <img src="assets/images/RainyDays_Logo.png" alt="Rainy days logo" class="logo-footer" href="homepage.html" />
+      <div class="footer-contact">
+        <p>Rainydays street 14, 0081 Oslo</p>
+        <p>+47 429 19 021</p>
+        <p>contact@rainydays.com</p>
+      </div>
+    </footer>
+  </body>
+</html>

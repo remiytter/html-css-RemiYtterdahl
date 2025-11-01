@@ -1,0 +1,72 @@
+/* Use import to split up your CSS into manageable chunks */
+@import url("./reset.css");
+/* Files that are only needed to be imported are called partials */
+/* These are marked with an underscore: */
+@import url("./variables.css");
+/* Feel free to add as many of these imports as you need */
+
+
+.main{
+    height: 70vh;
+    background-color: var(--color-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment{
+    width: 400px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px black;
+    text-align: left;
+}
+
+.payment h2{
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.payment .price{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.payment-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-form label{
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.payment-form input{
+    padding: 0.8rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 0.3rem;
+    font-size: 1rem;
+}
+
+.pay-button{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: var(--color-button);
+    color: var(--color-text);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+.pay-button:hover{
+    background-color: var(--color-primary);
+}
