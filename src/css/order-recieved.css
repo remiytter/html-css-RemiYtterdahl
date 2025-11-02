@@ -13,12 +13,12 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-primary);
-    color: var(--color-text);
+    color: black;
 }
 
-.main h2{
+.main h1{
     font-size: 2rem;
-    color: var(--color-text);
+    color: black;
     margin-bottom: 0.5rem;
 }
 

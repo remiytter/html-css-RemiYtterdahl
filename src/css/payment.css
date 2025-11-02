@@ -24,9 +24,9 @@
     text-align: left;
 }
 
-.payment h2{
+.payment h1{
     text-align: center;
-    color: var(--color-primary);
+    color: black;
     margin-bottom: 0.5rem;
 }
 
@@ -35,6 +35,7 @@
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 2rem;
+    color: red;
 }
 
 .payment-form{
