@@ -16,14 +16,14 @@ body {
 
 
 .main{
-  height: 70vh;                  /* 100% av skjermhøyden */
-  background-size: cover;         /* dekker hele området */
-  background-position: top;    /* sentrerer bildet */
-  background-repeat: no-repeat;   /* fjerner gjentakelse */
-  display: flex;                  /* for å kunne sentrere innholdet */
-  justify-content: center;        /* horisontalt */
-  align-items: flex-start;            /* Plasserer knapp øverst */
-  padding-top: 20rem;             /* flytter knapp nedover  */
+  height: 70vh;                  
+  background-size: cover;         
+  background-position: top;    
+  background-repeat: no-repeat;   
+  display: flex;                  
+  justify-content: center;        
+  align-items: flex-start;            
+  padding-top: 20rem;             
   background-image: url("https://cdn.pixabay.com/photo/2016/11/22/19/25/adventure-1850178_1280.jpg");
 }
 
@@ -50,3 +50,49 @@ body {
   transform: scale(1.1);
 }
 
+/* ----- Mobile ----- */
+@media (max-width: 768px){
+
+  .main{
+    height: 60vh;
+    padding-top: 10rem;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .homepage-cta{
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border-width: 1.5px;
+  }
+
+  .homepage-cta a{
+    font-size: 1.1rem;
+  }
+
+}
+
+/* ----- Tablet ----- */
+@media (max-width: 1024px){
+
+  .main{
+    height: 60vh;
+    padding-top: 15rem;
+    background-position: center;
+  }
+
+}
+
+
+
+/* Under construction site */
+
+.construction{
+  background-color: var(--color-background);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-primary);
+}
