@@ -40,3 +40,36 @@ footer{
   padding-right: 2rem;      /* Få de litt ut fra høyrekanten av skjermen */
   height: 100%;
 }
+
+/* ----- Mobile ----- */
+@media (max-width: 768px) {
+
+  footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer-icons{
+    justify-content: center;
+  }
+
+  .footer-contact{
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .logo-footer{
+    height: 50px;
+  }
+
+  .footer-icons img{
+    height: 20px;
+  }
+
+}
