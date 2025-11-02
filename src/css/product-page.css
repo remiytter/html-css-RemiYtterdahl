@@ -60,7 +60,7 @@
 }
 
 .buy{
-    background-color: #333;
+    background-color: var(--color-button);
     color: white;
     border: none;
     padding: 0.8rem 2rem;

@@ -9,7 +9,7 @@ footer{
 
 .footer-icons{
   display: flex;
-  gap: 1rem;  /* Mellomrom mellom ikonene */
+  gap: 1rem;  
 }
 
 .footer-icons img{
@@ -19,7 +19,7 @@ footer{
 }
 
 .footer-icons img:hover{
-  transform: scale(1.1);  /* Hover effekt, ikoner blir litt større */
+  transform: scale(1.1);  
 }
 
 
@@ -34,10 +34,10 @@ footer{
 
 .footer-contact{
   display: flex;
-  justify-content: center;  /* legger paragrafene under hverandre */
-  align-items: flex-end;    /* Sentrerer vertikalt i footer */
-  flex-direction: column;   /* Plasserer paragrafene mot høyre */
-  padding-right: 2rem;      /* Få de litt ut fra høyrekanten av skjermen */
+  justify-content: center; 
+  align-items: flex-end;    
+  flex-direction: column;   
+  padding-right: 2rem;     
   height: 100%;
 }
 

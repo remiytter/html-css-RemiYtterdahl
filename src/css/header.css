@@ -4,11 +4,11 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* NAVBAR-KONTAINER */
+
 .navbar {
   display: flex;
-  justify-content: space-between;  /* logo venstre, meny høyre */
-  align-items: center;             /* sentrer vertikalt */
+  justify-content: space-between;  
+  align-items: center;             
   height: 100%;
   padding: 0 2rem;
 }
@@ -26,19 +26,20 @@ header {
   text-decoration: none;
 }
 
-/* NAV-LENKER */
+
 .nav-links {
   display: flex;
-  gap: 5rem;           /* mellomrom mellom lenker */
-  list-style: none;    /* fjerner punktene */
+  gap: 5rem;           
+  list-style: none;    
   margin: 0;
   padding: 0;
 }
 
-/* LENKENE SELV */
+
 .nav-links a {
   text-decoration: none;
-  color: var(--color-text);
+  color: white;
+  font-family: var(--font-nav);
   font-weight: bold;
   font-size: 25px;
   transition: color 0.3s ease;
@@ -66,7 +67,7 @@ header {
   display: none;
   background: none;
   border: none;
-  color: var(--color-text);
+  color: white;
   font-size: 2rem;
   cursor: pointer;
 }

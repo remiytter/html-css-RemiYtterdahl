@@ -64,7 +64,7 @@
 .checkout-button{
     margin-top: 2rem;
     padding: 1rem;
-    background-color: var(--color-primary);
+    background-color: var(--color-button);
     color: white;
     border: none;
     border-radius: 6px;

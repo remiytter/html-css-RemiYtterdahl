@@ -14,12 +14,12 @@
     align-items: center;
 }
 
-/* Container for produktene */
+
 .products{
     display: flex;
     justify-content: center;
-    gap: 3rem;                  /* Avstand mellom produktene */
-    flex-wrap: wrap;            /* Gjør den responsiv */
+    gap: 3rem;                  
+    flex-wrap: wrap;            
 }
 
 .product-card{
@@ -60,7 +60,7 @@
     font-size: 1.2rem;
     margin-bottom: 0.3rem;
     color: var(--color-primary);
-    min-height: 2.5rem; /* Sørger for lik høyde */
+    min-height: 2.5rem; 
 }
 
 .price{
@@ -70,7 +70,7 @@
 }
 
 .buy-buttons{
-    background-color: var(--color-primary);
+    background-color: var(--color-button);
     border: none;
     padding: 0.7rem 1.5rem;
     border-radius: 8px;
